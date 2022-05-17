@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+body{
+    color:rgb(69, 160, 130);
+    background-color:rgb(7, 109, 109)
+}
+.pagina{
+    margin: 15%;
+
+}
+.logo{
+    height: 2em;
+    width: 2em;
+}
+.negrita{
+    font-weight: bolder;
+    color:rgb(52, 245, 181)
+}
+.barra{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0.5em;
+
+}
+.enlace-barra{
+    padding-top: 0.5em;
+    border-left: solid black 1px ;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.historia-imagen{
+    height: 40%;
+    width: 40%;
+    float: left;
+    margin-right: 20 px;
+    margin-bottom: 20 px;
+}
+
+.imagen-inicio{
+    height: 20%;
+    width: 20%;
+    float: left;
+    margin: 20 px;
+}
